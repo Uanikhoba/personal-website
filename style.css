@@ -1,0 +1,296 @@
+.background{
+    background-image: url(./images/background.jpeg);
+    background-size: cover; /* Make the image cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.gilda-display-regular {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 4rem; */
+  }
+  
+
+.intro{
+    width: 300px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: 150px;
+    color: white;
+}
+
+.intro h1{
+  font-size: 4rem;
+  margin-left: 30px;
+  margin-bottom: -20px;
+}
+
+.intro h2{
+  font-size: 4rem;
+   margin-left: -70px;
+}
+
+.btn{
+    margin-left: 830px;
+    position:absolute;
+    top:470px;
+    width:150px;
+    height: 40px;
+    background-color: #d6cdca;
+}
+
+#myCarousel{
+    height:80vh;
+    background-color: #d6cdca;
+}
+
+#myCarousel.container{
+  padding-bottom: 2rem;
+}
+
+
+
+
+.img1{
+  float:right;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  border-radius: 10%;
+}
+
+#myCarousel{
+  height:100vh;
+  /* background-color: white; */
+}
+
+h2{
+  padding: 50px;
+  color: white;
+  margin-left: 80px;
+  font-size: 2.5rem;
+}
+
+h3{
+  font-size: 1.5rem;
+  color: white;
+}
+
+p{
+  font-size: 1.25rem;
+  text-align: left;
+  color:white;
+}
+
+.carousel-caption{
+  width: 500px;
+  margin-bottom: 150px;
+}
+
+ul{
+  line-height: 50px;
+}
+
+.img2{
+  float:right;
+}
+
+.work{
+  height:100vh;
+  background-color: #cec5c1;
+}
+
+.project{
+  margin-left: 130px;
+  font-size: 1.25rem;
+}
+
+
+.img1 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.work h3{
+  font-size: 2rem; margin-left: 130px;
+}
+
+.container-contact{
+  height: 80vh;
+  width: 100%;
+  background-color: #d6cdca;
+}
+
+p.container-contact{
+  padding: 20px;
+  font-size: 1.25rem; 
+  
+}
+
+
+.title{
+  height: 100px;
+  width: 500px;
+  margin-left: 250px;
+  
+}
+
+.paragraph{
+  text-align: center;
+  height: 120px;
+  width: 700px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.btn1{
+  background-color: white;
+  color: black;
+  width:150px;
+  height: 40px;
+  margin-left: 450px;
+}
+
+.list1{
+  height: 100px;
+  width: 500px;
+}
+
+.list2{
+  height: 500px;
+  width: 500px;
+}
+
+a:hover{
+ color: black;
+}
+
+
+
+
+
+@media( max-width: 992px){
+    .img1 img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+          
+    }
+
+    .carousel-caption{
+        width: 250px;
+        height: 200px;
+    }
+
+  
+    .carousel { overflow: hidden; padding-bottom: 4rem; } 
+
+    .carousel-caption p{
+      position: absolute;
+      top: 400px;
+      left: 15px; 
+   }
+
+   .carousel-caption h3{
+    position: absolute;
+    top:340px;
+    left: 10px;
+    
+ }
+
+
+
+    h3{
+      font-size: 1rem;
+      color: white;
+    }
+
+    .img2 img{
+      width:100%;
+      height:300px;
+    }
+
+    .intro{
+      width: 300px;
+      height: 300px;
+      margin-left: 250px;
+      margin-top: 150px;
+      color: white;
+  }
+
+
+    .intro h1{
+        font-size: 3rem;
+    }
+
+    .intro h2{
+      font-size: 3rem;
+      margin-left: -50px;
+    }
+
+    .btn p{
+    font-size: 12px;
+    } 
+
+
+    .btn{
+        margin-left: 280px;
+        position:absolute;
+        top:420px;
+        width:95px;
+        height: 30px;
+        background-color: #d6cdca;
+    }
+
+    .img1 img{
+        width: 250px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .carousel-caption{
+        width: 260px;
+        margin-top: 800px;
+    }
+
+    
+.title{
+  height: 100px;
+  width: 500px;
+  margin-left: 20px;
+ 
+
+}
+h2.title{
+  font-size: 1.25rem; 
+
+}
+
+.paragraph{
+  text-align: center;
+  height: 100px;
+  width: 450px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.btn1{
+  background-color: white;
+  color: black;
+  width:120px;
+  height: 30px;
+  margin-left: 270px;
+  margin-top: 50px;
+}
+
+}
